@@ -1,0 +1,46 @@
+.header_and_links {
+    position: relative;
+    overflow: auto;
+    text-align: center;
+}
+
+.header_and_links img {
+    height: 35px;
+    width: 100%;
+}
+
+.links {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 25px;
+    right: 255px;
+        
+}
+
+.links a  {
+    padding-right: 50px;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("background_image.jpg");
+    
+}
+
+.pageBody img {
+    
+    overflow: auto;
+    //position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.pageBodyText {
+    
+    font-size: 3em;
+    position: absolute;
+    right: 460px;
+    font-weight: bold;
+    color: white;
+}
